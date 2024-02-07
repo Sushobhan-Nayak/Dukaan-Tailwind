@@ -2,11 +2,11 @@ export const Pagenav = () => {
   return (
     <div>
       <nav aria-label="Page navigation example">
-        <ul class="inline-flex -space-x-px text-sm">
+        <ul class="inline-flex -space-x-px text-sm gap-2">
           <li>
             <a
               href="#"
-              class="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              class="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-700 bg-white border border-gray-300 rounded hover:bg-gray-100 hover:text-gray-700 font-semibold"
             >
               <div>
                 <svg
@@ -30,7 +30,7 @@ export const Pagenav = () => {
           <li>
             <a
               href="#"
-              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-700 bg-white hover:bg-gray-100 hover:text-gray-700"
             >
               1
             </a>
@@ -38,7 +38,7 @@ export const Pagenav = () => {
           <li>
             <a
               href="#"
-              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-700 bg-white hover:bg-gray-100 hover:text-gray-700"
             >
               ...
             </a>
@@ -47,7 +47,7 @@ export const Pagenav = () => {
             <a
               href="#"
               aria-current="page"
-              class="flex items-center justify-center px-3 h-8 text-blue-600  bg-blue-50 hover:bg-blue-100 hover:text-blue-700  dark:bg-gray-100 dark:text-gray-800 font-bold"
+              class="flex items-center justify-center px-3 h-8 text-white bg-blue-800 rounded hover:bg-gray-100 hover:text-black font-bold hover:border"
             >
               10
             </a>
@@ -55,7 +55,7 @@ export const Pagenav = () => {
           <li>
             <a
               href="#"
-              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-700 bg-white hover:bg-gray-100 hover:text-gray-700"
             >
               11
             </a>
@@ -63,7 +63,7 @@ export const Pagenav = () => {
           <li>
             <a
               href="#"
-              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-700 bg-white hover:bg-gray-100 hover:text-gray-700"
             >
               12
             </a>
@@ -71,7 +71,7 @@ export const Pagenav = () => {
           <li>
             <a
               href="#"
-              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-700 bg-white hover:bg-gray-100 hover:text-gray-700"
             >
               13
             </a>
@@ -79,7 +79,7 @@ export const Pagenav = () => {
           <li>
             <a
               href="#"
-              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-700 bg-white hover:bg-gray-100 hover:text-gray-700"
             >
               14
             </a>
@@ -87,7 +87,7 @@ export const Pagenav = () => {
           <li>
             <a
               href="#"
-              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-700 bg-white hover:bg-gray-100 hover:text-gray-700"
             >
               15
             </a>
@@ -95,7 +95,7 @@ export const Pagenav = () => {
           <li>
             <a
               href="#"
-              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-700 bg-white hover:bg-gray-100 hover:text-gray-700"
             >
               16
             </a>
@@ -103,7 +103,7 @@ export const Pagenav = () => {
           <li>
             <a
               href="#"
-              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-700 bg-white hover:bg-gray-100 hover:text-gray-700"
             >
               17
             </a>
@@ -111,7 +111,7 @@ export const Pagenav = () => {
           <li>
             <a
               href="#"
-              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-700 bg-white hover:bg-gray-100 hover:text-gray-700"
             >
               18
             </a>
@@ -119,7 +119,7 @@ export const Pagenav = () => {
           <li>
             <a
               href="#"
-              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-700 bg-white border rounded hover:bg-gray-100 hover:text-gray-700 font-semibold"
             >
               Next
               <div>
